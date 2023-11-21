@@ -1,8 +1,6 @@
 #include <iostream>
 #define PI 3.14159
 
-//teste
-
 int main()
 {
     int raio = 4;
