@@ -1,6 +1,8 @@
 #include <iostream>
 #define PI 3.14159
 
+//#define >> declara uma variavel constante
+
 int main()
 {
     int raio = 5;
