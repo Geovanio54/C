@@ -10,6 +10,6 @@ int main()
     cout << "Digite o seu nome: " << endl;
     cin >> nome;
     cout << "Prazer em te conhecer " << nome << endl;
-
+    
     return 0;
 }
