@@ -1,4 +1,5 @@
 #include <iostream>
+#include <string> //É opcional essa biblioteca
 using namespace std;
 
 int main()
