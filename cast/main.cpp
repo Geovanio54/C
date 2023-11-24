@@ -12,7 +12,14 @@ int main()
 
     cout << "Novo valor da 'variavel1' é " << variavel1 << " ultrapassou o limite do tipo da variavel short " << typeid(variavel1).name() << endl;
 
+    variavel1 = 30000;
+
+    int variavel2 ;
+
+    variavel2 = variavel1;
+
     cout << "Valor da variavel1 " << variavel1 << " tipo da variavel1 " << typeid(variavel1).name() << endl;
+    cout << "Valor da variavel2 " << variavel2 << " tipo da variavel2 " << typeid(variavel2).name() << endl;
 
     return 0;
 }
