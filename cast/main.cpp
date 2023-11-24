@@ -16,7 +16,9 @@ int main()
 
     int variavel2 ;
 
-    variavel2 = variavel1;
+    variavel2 = (int)variavel1; // duas maneira de conversão var2 = var1  /  var2 = (int)var1
+
+    variavel2 = variavel2 + 30000;
 
     cout << "Valor da variavel1 " << variavel1 << " tipo da variavel1 " << typeid(variavel1).name() << endl;
     cout << "Valor da variavel2 " << variavel2 << " tipo da variavel2 " << typeid(variavel2).name() << endl;
